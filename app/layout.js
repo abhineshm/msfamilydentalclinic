@@ -1,6 +1,6 @@
 import './globals.css'
-import Header from '@/components/Header'
-import Footer from '@/components/Footer'
+import Header from '../components/Header'
+import Footer from '../components/Footer'
 
 export const metadata = {
   title: 'MS Family Dental Clinic - Your Trusted Dental Care Provider',
