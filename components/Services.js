@@ -1,11 +1,11 @@
 'use client'
 
-import { Tooth, Smile, Activity, Zap } from 'lucide-react'
+import { Heart, Smile, Stethoscope, AlertCircle } from 'lucide-react'
 
 export default function Services() {
   const services = [
     {
-      icon: <Tooth className="w-12 h-12 text-blue-600" />,
+      icon: <Heart className="w-12 h-12 text-blue-600" />,
       title: 'General Dentistry',
       description: 'Routine cleanings, checkups, and preventive care to maintain your dental health.',
     },
@@ -15,12 +15,12 @@ export default function Services() {
       description: 'Teeth whitening, veneers, and smile makeovers to enhance your beautiful smile.',
     },
     {
-      icon: <Activity className="w-12 h-12 text-blue-600" />,
+      icon: <Stethoscope className="w-12 h-12 text-blue-600" />,
       title: 'Restorative Dentistry',
       description: 'Fillings, crowns, bridges, and implants to restore your teeth functionality.',
     },
     {
-      icon: <Zap className="w-12 h-12 text-blue-600" />,
+      icon: <AlertCircle className="w-12 h-12 text-blue-600" />,
       title: 'Emergency Dental Care',
       description: 'Fast and effective treatment for dental emergencies and urgent dental issues.',
     },
